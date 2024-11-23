@@ -1,0 +1,26 @@
+Nov 23 14:25:31 localhost systemd[1]: Starting Session c1 of user root.
+Nov 23 14:25:31 localhost systemd[1]: Started Session c1 of user root.
+Nov 23 14:25:32 localhost kernel: [    0.000000] Initializing cgroup subsys cpuset
+Nov 23 14:25:32 localhost kernel: [    0.000000] Initializing cgroup subsys cpu
+Nov 23 14:25:32 localhost kernel: [    0.000000] Initializing cgroup subsys cpuacct
+Nov 23 14:25:32 localhost kernel: [    0.000000] Linux version 5.15.0-76-generic (buildd@lcy02-amd64-039) (gcc (Ubuntu 9.4.0-1ubuntu1) 9.4.0, GNU ld (GNU Binutils for Ubuntu) 2.34) #85~20.04.1-Ubuntu SMP Wed Oct 4 09:41:19 UTC 2023
+Nov 23 14:25:33 localhost kernel: [    0.092182] Security Framework initialized
+Nov 23 14:25:34 localhost sshd[1234]: Accepted password for user1 from 192.168.1.2 port 52874 ssh2
+Nov 23 14:25:34 localhost sshd[1234]: pam_unix(sshd:session): session opened for user user1(uid=1001) by (uid=0)
+Nov 23 14:25:35 localhost CRON[1357]: (root) CMD (/usr/bin/echo "Running cron job")
+Nov 23 14:25:36 localhost systemd[1]: Reloading.
+Nov 23 14:25:37 localhost kernel: [   12.345678] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Nov 23 14:25:38 localhost apache2[1456]: AH00094: Command line: '/usr/sbin/apache2 -k start'
+Nov 23 14:25:39 localhost systemd[1]: Starting Daily apt download activities...
+Nov 23 14:25:39 localhost systemd[1]: Started Daily apt download activities.
+Nov 23 14:25:40 localhost sudo[1500]:   user1 : TTY=pts/1 ; PWD=/home/user1 ; USER=root ; COMMAND=/bin/ls
+Nov 23 14:25:40 localhost sudo[1500]: pam_unix(sudo:session): session opened for user root by user1(uid=1001)
+Nov 23 14:25:40 localhost sudo[1500]: pam_unix(sudo:session): session closed for user root
+Nov 23 14:25:41 localhost systemd[1]: Stopping User Manager for UID 1001...
+Nov 23 14:25:41 localhost systemd[1]: Stopped User Manager for UID 1001.
+Nov 23 14:25:42 localhost systemd[1]: Reloading OpenBSD Secure Shell server.
+Nov 23 14:25:42 localhost systemd[1]: Reloaded OpenBSD Secure Shell server.
+Nov 23 14:25:43 localhost dhclient[1550]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Nov 23 14:25:43 localhost dhclient[1550]: DHCPOFFER from 192.168.1.1
+Nov 23 14:25:43 localhost dhclient[1550]: DHCPREQUEST on eth0 to 192.168.1.1 port 67
+Nov 23 14:25:43 localhost dhclient[1550]: DHCPACK from 192.168.1.1
